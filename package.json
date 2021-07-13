@@ -1,0 +1,23 @@
+{
+  "name": "npm-can-install-git-module",
+  "version": "1.0.0",
+  "description": "Git Module Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankra/npm-can-install-git-module.git"
+  },
+  "author": "frankra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frankra/npm-can-install-git-module/issues"
+  },
+  "homepage": "https://github.com/frankra/npm-can-install-git-module#readme",
+  "dependencies": {
+    "npm-git-module": "github:frankra/npm-git-module#a3c1adefbe33952c3d3c1a10bfa9ff468778bb1b"
+  }
+}
